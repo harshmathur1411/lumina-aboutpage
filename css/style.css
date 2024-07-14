@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body
+  {
+    font-family: 'Open Sans', sans-serif;
+  }
+ul
+{
+    list-style-type: none;
+}
+header
+{
+    margin: 24px 0;
+}
+.header-wrap
+{
+    max-width: 100%;
+    padding: 0 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .logo
+{
+    max-width: 130px;
+    display: inline-block;
+}
+.header .logo img
+{
+    width: 100%;
+}
+.header-wrap nav ul
+{
+    display: flex;
+    gap: 25px;
+}
+.header-wrap nav ul li
+{
+    gap: 25px;
+}
+.header ul li a
+{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+.header ul li a.active
+{
+    padding: 8px 18px;
+    background-color: #fcf5e9;
+    font-weight: 600;
+}
+.section-text
+{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-text h2
+{
+    max-width: 950px;
+    margin: 0 auto;
+    font-size: 48px;
+    line-height: 1.4;
+    font-weight: normal;
+    text-align: center;
+}
+.section-text h2 span
+{
+    background-color: #fcf5e9;
+}
+section.services {
+    background: #333;
+    color: #fff;
+    padding: 3rem 0 4rem;
+}
+.service-wrapper
+{
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+section.services h2
+{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.service-box h3 {
+    font-size: 16 px;
+    margin-bottom: 0.7rem;
+}
+.my-team .team-wrapper
+{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+section.my-team
+{
+    padding: 3rem 0 4rem;
+}
+.my-team .team-wrapper h3
+{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.team-flex {
+    display: flex;
+    gap: 32px;
+}
+.team-member .member-img img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+footer {
+    border-top: 1px solid #aaa;
+    padding: 2rem 1.5rem;
+    margin-top: 2rem;
+}
+.footer-items
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.footer-items a
+{
+    max-width: 130px;
+}
+.footer-items a img
+{
+    width: 100%;
+}
+footer h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+footer ul li {
+    margin-bottom: 8px;
+}
+.social-links h3
+{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.social-links a {
+    margin: 0.2rem;
+}
+.social-links a i
+{
+    color: #333;
+}
